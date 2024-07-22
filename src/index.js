@@ -1,6 +1,7 @@
 import { loadHomePage } from "./homepage";
 import { loadMenu } from "./menu";
 import { loadAbout } from "./about";
+import './style.css';
 
 document.addEventListener("DOMContentLoaded", () => {
     loadHomePage();

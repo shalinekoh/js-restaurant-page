@@ -16,4 +16,6 @@ export function loadHomePage() {
     const description = document.createElement('p');
     description.textContent = "Our restaurant offers the finest cuisine with fresh ingredients and a delightful ambiance. Come and experience the best dining experience!";
     content.appendChild(description);
+
+    description.style.color = "white";
 }

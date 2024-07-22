@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #023047;
+}
+
+h1, h2 {
+    color: #ffb703;
+    padding-left: 15px;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 20px
+}
+
+button {
+    border: none;
+    font-size: large;
+    background-color: #023047;
+    color: #ffb703;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+p {
+    background-color: #8ecae673;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
