@@ -3,6 +3,7 @@ import Logo from "./logo.png";
 
 export function loadHomePage() {
     const content = document.getElementById("content");
+    content.innerHTML = "";
 
     const headline = document.createElement("h1");
     headline.innerHTML = "Welcome to Our Restaurant!";
