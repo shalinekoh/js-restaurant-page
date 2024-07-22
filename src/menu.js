@@ -1,5 +1,5 @@
 export function loadMenu() {
-    content = document.getElementById("content");
+    const content = document.getElementById("content");
     content.innerHTML = "";
 
     const headline = document.createElement("h1");
@@ -14,7 +14,7 @@ export function loadMenu() {
 
     menuItems.forEach(item => {
         const menuItem = document.createElement("div");
-        const itemName = document.createElement("h1");
+        const itemName = document.createElement("h2");
         itemName.textContent = item.name;
         menuItem.appendChild(itemName);
 
